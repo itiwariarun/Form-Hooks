@@ -1,17 +1,18 @@
 
 
-<nav class="navbar navbar-expand-lg bg-dark   navbar-dark shadow-sm ">
-    <a href="{{url('/')}}" >
-        <h1 class="m-0  text-uppercase font-serif pl-5 text-2xl text-white">Hooks Form</h1>
+<nav class="bg-White navbar border-box navbar-expand-lg navbar-dark ">
+    <a href="{{url('/home')}}" >
+        <h1 class="pl-5 m-0 font-serif text-2xl text-stone-500 text-uppercase">Hooks Form</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse flex justify-center pr-40" id="navbarCollapse">
-         <div class="navbar-nav  ">
-            <a href="{{url('/')}}" class="nav-item  nav-link hover:active">Home</a>
-            <a href="{{url('/login')}}" class="nav-item nav-link hover:active">Login</a>
-            <a href="{{url('/register')}}" class="nav-item nav-link hover:active">Register</a>
+    <div class="justify-end text-lg text-black collapse navbar-collapse" id="navbarCollapse">
+         <div class="navbar-nav ">
+            <a href="{{url('/')}}" class="text-black nav-item nav-link hover:active">Home</a>
+
+            <a href="{{url('/login')}}" class="text-black nav-item nav-link hover:active">Login</a>
+            <a href="{{url('/register')}}" class="text-black nav-item nav-link hover:inactive">Register</a>
          </div>
     </div>
 </nav>
