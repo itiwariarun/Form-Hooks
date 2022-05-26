@@ -1,4 +1,4 @@
-@extends('Welcome')
+@extends('main')
 @section('main_content')
 
 <div id="Login" >
