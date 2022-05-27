@@ -5566,7 +5566,7 @@ function Main() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("nav", {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-        "class": "bg-white navbar-nav  justify-left fixed mix-blend-darken container   min-h-full w-[9rem] navbar-dark ",
+        "class": " navbar-nav  justify-left fixed mix-blend-darken container   min-h-full w-[9rem] navbar-dark ",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("a", {
           href: "{{url('/login')}}",
           "class": "text-black opacity-100 text-4xl hover:active top-40 mt-40 left-4 fixed mr-20",
@@ -5586,7 +5586,7 @@ function Main() {
             "class": "fa-brands fa-twitter-square"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-          "class": " font-serif bottom-0 left-10 text-xl p-1 bg-cyan-700 text-white ",
+          "class": " font-serif bottom-0 left-10 text-xl p-1 bg-cyan-800  text-white opacity:10",
           children: "Chat With Us?"
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
@@ -5656,14 +5656,14 @@ function Main() {
               children: "Our Services"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-            className: " columns-3 container  h-[40rem] px-10 pt-[8rem] min-w-full ",
+            className: " columns-3 container space-x-10 h-[40rem] px-20 pt-[8rem] min-w-full ",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-              className: "relative h-[30rem]  ",
+              className: "relative hover:scale-110  h-[30rem] ",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
                 src: _main1_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
-                className: "object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100"
+                className: "object-cover   w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-                className: "absolute top-0 items-center justify-center w-full h-full text-center bg-black opacity-60",
+                className: "absolute top-0   items-center justify-center w-full h-full text-center bg-black opacity-60",
                 children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
                   className: "pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6",
                   children: "Consulting Sessions"
@@ -5673,10 +5673,10 @@ function Main() {
                 })]
               }), " "]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-              className: "relative h-[30rem]  ",
+              className: "relative hover:scale-110 h-[30rem]  ",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
                 src: _main2_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
-                className: "object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100"
+                className: "object-cover   w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
                 className: "absolute top-0 items-center justify-center w-full h-full text-center bg-black opacity-60",
                 children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
@@ -5688,12 +5688,12 @@ function Main() {
                 })]
               }), " "]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-              className: "relative h-[30rem]  ",
+              className: "relative hover:scale-110 h-[30rem]  ",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
                 src: _main3_jpeg__WEBPACK_IMPORTED_MODULE_5__["default"],
                 className: "object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-                className: "absolute top-0 items-center justify-center w-full h-full text-center bg-black opacity-60",
+                className: "absolute  top-0 items-center justify-center w-full h-full text-center bg-black opacity-60",
                 children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
                   className: "pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6",
                   children: "Consulting Sessions"

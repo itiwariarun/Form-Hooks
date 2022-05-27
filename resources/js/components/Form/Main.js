@@ -10,10 +10,10 @@ function Main() {
     <div>
        <nav>
          
-          <div  class="bg-white navbar-nav  justify-left fixed mix-blend-darken container   min-h-full w-[9rem] navbar-dark "><a href="{{url('/login')}}" class="text-black opacity-100 text-4xl hover:active top-40 mt-40 left-4 fixed mr-20"><i className="fa-brands fa-instagram-square"></i> </a><br/>
+          <div  class=" navbar-nav  justify-left fixed mix-blend-darken container   min-h-full w-[9rem] navbar-dark "><a href="{{url('/login')}}" class="text-black opacity-100 text-4xl hover:active top-40 mt-40 left-4 fixed mr-20"><i className="fa-brands fa-instagram-square"></i> </a><br/>
           <a href="{{url('/register')}}" class="text-black opacity-100 text-3xl  hover:active top-60 mt-10 left-4 fixed mr-20"><i className="pr-1 fa-brands fa-google-plus"></i></a><br/>
           <a href="{{url('/')}}" class="text-black hover:active opacity-100 text-4xl top-80 left-4 mt-10 fixed mr-20"><i class="fa-brands fa-twitter-square"></i></a><br/>
-          <button class=" font-serif bottom-0 left-10 text-xl p-1 bg-cyan-700 text-white ">Chat With Us?</button>
+          <button class=" font-serif bottom-0 left-10 text-xl p-1 bg-cyan-800  text-white opacity:10">Chat With Us?</button>
           </div> 
       
 
@@ -41,18 +41,18 @@ function Main() {
     </div>
     <div className='h-[58rem] bg-gradient-to-l from-stone-400 min-w-full'>
     <div className='h-[10rem] min-w-full px-40 pt-[17rem] text-center  text-6xl'><h1 className='border-y-2 border-stone-800 text-stone-800 '>Our Services</h1></div>
-    <div className=' columns-3 container  h-[40rem] px-10 pt-[8rem] min-w-full '>
-      <div className='relative h-[30rem]  '><img src={main1} className='object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100'/>
- <div className='absolute top-0 items-center justify-center w-full h-full text-center bg-black opacity-60'>  <h1 className='pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6'>Consulting Sessions</h1>
+    <div className=' columns-3 container space-x-10 h-[40rem] px-20 pt-[8rem] min-w-full '>
+      <div className='relative hover:scale-110  h-[30rem] '><img src={main1} className='object-cover   w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100'/>
+ <div className='absolute top-0   items-center justify-center w-full h-full text-center bg-black opacity-60'>  <h1 className='pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6'>Consulting Sessions</h1>
  <p className='px-4 font-sans text-white'>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
  </div> </div>
     
- <div className='relative h-[30rem]  '><img src={main2} className='object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100'/>
+ <div className='relative hover:scale-110 h-[30rem]  '><img src={main2} className='object-cover   w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100'/>
  <div className='absolute top-0 items-center justify-center w-full h-full text-center bg-black opacity-60'>  <h1 className='pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6'>Consulting Sessions</h1>
  <p className='px-4 font-sans text-white'>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
  </div> </div>
- <div className='relative h-[30rem]  '><img src={main3} className='object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100'/>
- <div className='absolute top-0 items-center justify-center w-full h-full text-center bg-black opacity-60'>  <h1 className='pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6'>Consulting Sessions</h1>
+ <div className='relative hover:scale-110 h-[30rem]  '><img src={main3} className='object-cover  w-full  h-[30rem] bg-black hover:mix-blend-hard-light opacity-100'/>
+ <div className='absolute  top-0 items-center justify-center w-full h-full text-center bg-black opacity-60'>  <h1 className='pt-40 pb-10 text-3xl font-bold text-cyan-300 font-weight-6'>Consulting Sessions</h1>
  <p className='px-4 font-sans text-white'>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
  </div> </div>
     
